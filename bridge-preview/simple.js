@@ -101,9 +101,9 @@ function access(s){
  return {url,label};
 }
 function sourceCard(s){
- const saved=state.saved.includes(s.id),article=make("article","source"+(saved?" saved":""));
+ const saved=state.saved.includes(s.id),article=make("article","source"+(saved?" saved":""));article.dataset.sourceId=s.id;
  article.append(make("div","meta",s.collection.includes("PCC E-book")?"PCC Library e-book":s.collection.includes("PCC Reserve")?"PCC course reserve":s.kind||"Research source"));
- article.append(make("h3",null,s.title));
+ const title=make("h3");const bookLink=access(s);if(bookLink.url){const link=make("a",null,s.title);link.href=bookLink.url;link.target="_blank";link.rel="noopener noreferrer";link.setAttribute("aria-label",bookLink.label+" for "+s.title+" (opens in a new tab)");title.append(link);}else title.textContent=s.title;article.append(title);
  article.append(make("p","author",s.author+(s.year?" · "+s.year:"")));
  if(saved)article.append(make("span","saved-mark","Saved to my discoveries"));
  article.append(make("p","description",s.description||"A research lead to investigate. Check the original work before drawing conclusions."));
@@ -111,7 +111,7 @@ function sourceCard(s){
  if(s.collection.includes("PCC Reserve"))article.append(make("p","book-access","On reserve at PCC Library"+(s.callNumber?" · "+s.callNumber:"")));
  if(s.collection.includes("PCC E-book"))article.append(make("p","book-access","Available through PCC Library; sign-in may be required."));
  const row=make("div","source-buttons"),select=make("button","outline small",saved?"Remove from discoveries":"Save this source");
- select.type="button";select.addEventListener("click",()=>{if(saved)state.saved=state.saved.filter(id=>id!==s.id);else state.saved.push(s.id);save();renderSources();});row.append(select);
+ select.type="button";select.dataset.saveSourceId=s.id;select.setAttribute("aria-pressed",String(saved));select.addEventListener("click",()=>{if(saved)state.saved=state.saved.filter(id=>id!==s.id);else state.saved.push(s.id);save();renderSources();const next=Array.from($("results").children).find(el=>el.dataset.sourceId===s.id);const btn=next&&next.querySelector("button[data-save-source-id]");if(btn)btn.focus();});row.append(select);
  const a=access(s);
  if(a.url){const link=make("a","source-link",a.label+" ↗");link.href=a.url;link.target="_blank";link.rel="noopener noreferrer";link.setAttribute("aria-label",a.label+" for "+s.title+" (opens in a new tab)");row.append(link);}
  article.append(row);
@@ -181,7 +181,7 @@ function transferToFullThesis(){
  catch(e){announce("Browser storage is unavailable. Download your journal and copy relevant notes into the full Thesis Studio.");}
 }
 function ready(){
- fields();setStep(state.step,false);
+ fields();$("includeAllLabelText").textContent="Search all "+DATA.length+" catalog entries";setStep(state.step,false);
  for(const [id,key,max] of [["openingQuestion","question",4000],["story1","story1",10000],["story2","story2",10000],["story3","story3",10000],["thesisDraft","draft",18000],["changeNote","changed",7000]]){
   $(id).addEventListener("input",e=>{state[key]=trim(e.target.value,max);save();if(key==="question"&&state.step===2)renderSources();});
  }
