@@ -1,0 +1,22 @@
+/* Discovery Bridge student pilot · styles isolated to .bridge-card */
+.bridge-card{border:2px solid #87a990;background:#f1f7ef;border-radius:13px;padding:1.15rem;margin:1rem auto 1.4rem;color:#213d30;max-width:100%;box-sizing:border-box}
+.bridge-card h2{font-size:1.4rem;line-height:1.3;margin:.25rem 0 .55rem}
+.bridge-card p{margin:.4rem 0 .75rem}
+.bridge-card .bridge-kicker{color:#315f45;font-weight:800;font-size:.73rem;letter-spacing:.09em;text-transform:uppercase}
+.bridge-card .bridge-small{color:#475f52;font-size:.85rem;margin-top:1rem}
+.bridge-card .bridge-status{font-weight:650;min-height:1.5em;padding:.55rem 0;color:#275c3c}
+.bridge-card .bridge-controls{display:flex;gap:.65rem;flex-wrap:wrap;margin:.8rem 0}
+.bridge-card button{font:inherit;font-weight:700;border:1px solid #285743;border-radius:8px;background:#285743;color:#fff;cursor:pointer;padding:.52rem .8rem;line-height:1.35}
+.bridge-card button.bridge-secondary{background:#fff;color:#285743}
+.bridge-card button:disabled{opacity:.55;cursor:not-allowed}
+.bridge-card button:focus-visible,.bridge-card a:focus-visible,.bridge-card input:focus-visible,.bridge-card textarea:focus-visible{outline:3px solid #9c5b14;outline-offset:3px}
+.bridge-card .bridge-option{display:flex;gap:.6rem;align-items:flex-start;margin:.5rem 0;padding:.45rem .55rem;background:#fff;border-radius:6px;border:1px solid #d2ddcf;font-size:.92rem}
+.bridge-card .bridge-option input{width:1.1rem;height:1.1rem;flex:none;margin-top:.2rem}
+.bridge-card .bridge-mini{font-size:.83rem;color:#44634e;margin-top:.15rem;overflow-wrap:anywhere}
+.bridge-card textarea{font:inherit;width:100%;max-width:100%;min-height:5rem;box-sizing:border-box;background:#fff;border:1px solid #819a8a;border-radius:7px;padding:.6rem;color:#213d30}
+.bridge-card .bridge-note{border-left:3px solid #b48e52;padding-left:.7rem;margin:.8rem 0}
+.bridge-card .bridge-note strong{display:block}
+.bridge-card .bridge-section{border-top:1px solid #b9cdbc;margin-top:1rem;padding-top:.85rem}
+.bridge-card .bridge-incoming{background:#fffaf1;border:1px solid #d9bb80;padding:.8rem;border-radius:8px}
+.bridge-card .bridge-incoming p{overflow-wrap:anywhere}
+@media(max-width:650px){.bridge-card{padding:.9rem}.bridge-card .bridge-controls{flex-direction:column}.bridge-card button{width:100%}}
