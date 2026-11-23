@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#183f38">
+<meta name="description" content="Begin with a question, discover research sources, and develop a living three-story thesis.">
+<title>My Question to Living Thesis | Simplified Discovery Bridge · ENG 112</title>
+<link rel="stylesheet" href="./simple.css">
+<script defer src="../data/sources.js"></script>
+<script defer src="./simple.js"></script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to the writing area</a>
+<header class="masthead">
+ <div class="wrap">
+  <div class="eyebrow">ENG 112 · Writing as Discovery Studios · design pilot</div>
+  <h1>Follow a Question</h1>
+  <p class="lead">Begin with something you noticed. Find voices that complicate it. Discover what you want to say.</p>
+ </div>
+</header>
+<main class="wrap" id="main">
+ <div class="topbar">
+  <p class="progress" aria-label="Your place in the journey"><span id="progressText">Your question · 1 of 3</span></p>
+  <button class="text-button" id="saveBackupTop" type="button">Save a backup</button>
+ </div>
+ <div class="stages" aria-hidden="true"><span data-indicator="1" class="active">My question</span><span data-indicator="2">My discoveries</span><span data-indicator="3">My living thesis</span></div>
+ <section id="stage1" aria-labelledby="stage1Title" class="stage">
+  <div class="stage-heading"><p class="step-label">BEGIN HERE</p><h2 id="stage1Title" tabindex="-1">What's on your mind?</h2><p>It can be a memory, an animal, a place, a relationship, or something you can't explain yet. You don't need a thesis.</p></div>
+  <label class="field-label" for="openingQuestion">What are you curious about?</label>
+  <textarea id="openingQuestion" rows="5" maxlength="4000" placeholder="For example: Why do my dogs seem to respond differently when I'm upset?"></textarea>
+  <p class="field-hint">Write naturally, in your own words. You can change your question later.</p>
+  <div class="actions"><button class="primary" id="startDiscover" type="button">Find ideas and sources <span aria-hidden="true">→</span></button></div>
+  <p id="questionWarning" class="help-status" role="status" aria-live="polite"></p>
+  <details class="quiet-detail"><summary>Need a starting point?</summary><p>Try writing about something that surprised you, a moment you keep remembering, or a question left by a Nature Diary or an interview. Your personal experience is a valid place to begin.</p><div class="examples"><button class="outline small" data-example="I wonder whether the trees in my neighborhood hold memories of the people who live here." type="button">Trees and memory</button><button class="outline small" data-example="How do my dogs communicate with me, and what might I misunderstand about them?" type="button">Dogs and communication</button><button class="outline small" data-example="What did I learn from my grandmother's gardening that I didn't understand as a child?" type="button">Grandma and gardening</button></div></details>
+ </section>
+ <section id="stage2" class="stage" aria-labelledby="stage2Title" hidden>
+  <div class="stage-heading"><p class="step-label">YOUR DISCOVERIES</p><h2 id="stage2Title" tabindex="-1">Follow what catches your attention</h2><p>These sources are possible starting points, not answers. Open a source, consider what it can tell you, and save anything worth exploring.</p></div>
+  <div class="question-echo"><span>My question</span><p id="questionEcho"></p><button class="text-button" id="editQuestion" type="button">Edit question</button></div>
+  <p id="matchNote" class="match-note" role="status" aria-live="polite"></p>
+  <div id="results" class="results" aria-label="Suggested research sources"></div>
+  <div class="actions center-actions"><button id="moreSources" class="outline" type="button" hidden>See more sources</button></div>
+  <details class="advanced" id="advancedSearch"><summary>Explore more research options <span class="muted">· optional</span></summary>
+    <div class="advanced-grid">
+      <div><label class="field-label" for="manualSearch">Search by concepts, author, or title</label><input id="manualSearch" type="search" placeholder="Try water AND memory, or autism OR perception"></div>
+      <div><label class="field-label" for="pathFilter">Research pathway</label><select id="pathFilter"><option value="">All pathways</option></select></div>
+    </div>
+    <div class="options-line">
+      <label><input id="includeAll" type="checkbox"> Search all 128 catalog entries</label>
+      <label><input id="ebookOnly" type="checkbox"> Show only PCC e-books</label>
+    </div>
+    <p class="field-hint">AND narrows, OR broadens, and NOT excludes. Uncurated records are research leads, not fully reviewed readings.</p>
+    <div class="actions"><button class="outline small" id="resetFilters" type="button">Reset search options</button><a href="../index.html" target="_blank" rel="noopener noreferrer">Open the full Research Connections Library</a></div>
+  </details>
+  <div class="next-panel">
+    <div><h3>What are you beginning to see?</h3><p id="savedCount">No sources saved yet. Save one that interests you, or move forward with your encounter.</p></div>
+    <div class="actions"><button class="primary" id="goThesis" type="button">Develop my living thesis <span aria-hidden="true">→</span></button><button class="text-button" id="backQuestion" type="button">Back to my question</button></div>
+  </div>
+ </section>
+ <section id="stage3" class="stage" aria-labelledby="stage3Title" hidden>
+  <div class="stage-heading"><p class="step-label">YOUR LIVING THESIS</p><h2 id="stage3Title" tabindex="-1">What is your thinking becoming?</h2><p>Bring your encounter and research into conversation. These are three layers of thought, not three mandatory essay sections. Your interpretation can change.</p></div>
+  <div class="question-echo"><span>My starting question</span><p id="thesisQuestionEcho"></p></div>
+  <div id="sourceSummary" class="source-summary" aria-label="Sources carried into my thesis"></div>
+  <div class="story-stack">
+   <div class="story"><div class="number">01</div><div class="story-content"><label for="story1">Observation · What have I actually noticed?</label><p>Start with a moment, pattern, encounter, or finding.</p><textarea id="story1" rows="4" maxlength="10000" placeholder="In my experience, I noticed..."></textarea></div></div>
+   <div class="story"><div class="number">02</div><div class="story-content"><label for="story2">Interpretation · What might it mean?</label><p>What do your sources help you question, complicate, or understand differently?</p><textarea id="story2" rows="4" maxlength="10000" placeholder="At first I thought... but I am reconsidering..."></textarea></div></div>
+   <div class="story"><div class="number">03</div><div class="story-content"><label for="story3">Significance · Why does that understanding matter?</label><p>What follows beyond your own encounter? Keep the claim grounded in evidence.</p><textarea id="story3" rows="4" maxlength="10000" placeholder="This matters because..."></textarea></div></div>
+  </div>
+  <div class="draft-panel">
+   <div class="draft-head"><h3>My working thesis</h3><button id="assembleThesis" class="outline small" type="button">Bring my three stories together</button></div>
+   <p>Use this space to revise your ideas into connected sentences in your own voice. The button only joins words you've already written.</p>
+   <label class="field-label" for="thesisDraft">My current interpretation</label>
+   <textarea id="thesisDraft" rows="6" maxlength="18000" placeholder="Write the interpretation you want readers to consider..."></textarea>
+   <label class="field-label" for="changeNote">What has changed in your thinking?</label>
+   <textarea id="changeNote" rows="3" maxlength="7000" placeholder="One source made me reconsider..."></textarea>
+  </div>
+  <div class="actions stage3-actions"><button class="primary" id="returnResearch" type="button">Return to research <span aria-hidden="true">↗</span></button><button class="outline" id="downloadJournal" type="button">Save my discovery journal</button></div>
+  <details class="advanced"><summary>More tools for my final project <span class="muted">· optional</span></summary><p>Need more space for annotations, source mapping, thesis history, or essay drafting? You can open the full Living Thesis Studio with your selected sources and notes. This transfers only when you choose it.</p>
+   <div class="actions"><button id="openFullThesis" class="outline" type="button">Continue in the full Thesis Studio</button><a href="../index.html" target="_blank" rel="noopener noreferrer">Full Research Connections Library</a></div>
+   <p class="field-hint">The full Studio is an experimental companion and stores its work separately. Save a backup before switching tools.</p>
+  </details>
+ </section>
+ <footer class="site-footer">
+   <p id="saveStatus" role="status" aria-live="polite">Your writing stays in this browser. Save a backup before changing devices.</p>
+   <details class="backup-options"><summary>Backups, privacy, and other options</summary>
+    <div class="actions"><button class="outline small" id="downloadBackup" type="button">Download editable backup (.json)</button><button class="outline small" id="restoreBackupButton" type="button">Restore backup (.json)</button><input id="restoreBackupFile" type="file" accept=".json,application/json" hidden></div>
+    <p>These preview pages use browser storage. They do not send your writing to your instructor or an AI service. Pages on the same GitHub Pages host can technically access the same browser storage, so avoid private identifying information. Export backups regularly.</p>
+    <p><a href="./index.html">Original Discovery Bridge pilot</a> · <a href="../index.html">Regular Research Connections Library</a></p>
+   </details>
+   <p class="smallprint">ENG 112 · Simplified Discovery Bridge 0.2 design pilot · No grade or automated judgment</p>
+ </footer>
+</main>
+</body>
+</html>
