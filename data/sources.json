@@ -1,5 +1,5 @@
 {
-  "version": "0.3.1",
+  "version": "0.3.2",
   "built": "2026-11-22",
   "count": 128,
   "pilot_count": 38,
@@ -24,7 +24,9 @@
       "caution": "",
       "state": "PCC list captured · access not live-tested",
       "citation": "",
-      "callNumber": "B2430.M379 V513 1968"
+      "callNumber": "B2430.M379 V513 1968",
+      "catalogSearchUrl": "https://pitt.ncccevergreen.org/eg/opac/results?query=The%20Visible%20and%20the%20Invisible&qtype=title",
+      "catalogLinkStatus": "title-search"
     },
     {
       "id": "ENG112-002",
@@ -46,7 +48,9 @@
       "caution": "",
       "state": "PCC list captured · access not live-tested",
       "citation": "",
-      "callNumber": "PS3057.N3 B84 1995"
+      "callNumber": "PS3057.N3 B84 1995",
+      "catalogSearchUrl": "https://pitt.ncccevergreen.org/eg/opac/results?query=The%20Environmental%20Imagination&qtype=title",
+      "catalogLinkStatus": "title-search"
     },
     {
       "id": "ENG112-003",
@@ -68,7 +72,9 @@
       "caution": "",
       "state": "PCC list captured · access not live-tested",
       "citation": "",
-      "callNumber": "B105.P535 C6313 2019"
+      "callNumber": "B105.P535 C6313 2019",
+      "catalogSearchUrl": "https://pitt.ncccevergreen.org/eg/opac/results?query=The%20Life%20of%20Plants&qtype=title",
+      "catalogLinkStatus": "title-search"
     },
     {
       "id": "ENG112-004",
@@ -90,7 +96,9 @@
       "caution": "Philosophical argument and experiential writing; not an experiment.",
       "state": "PCC list captured · access not live-tested",
       "citation": "",
-      "callNumber": "BD581 .A25 1996"
+      "callNumber": "BD581 .A25 1996",
+      "catalogSearchUrl": "https://pitt.ncccevergreen.org/eg/opac/results?query=The%20Spell%20of%20the%20Sensuous&qtype=title",
+      "catalogLinkStatus": "title-search"
     },
     {
       "id": "ENG112-005",
@@ -112,7 +120,9 @@
       "caution": "",
       "state": "PCC list captured · access not live-tested",
       "citation": "",
-      "callNumber": "BF353.5.N37 W55 2018"
+      "callNumber": "BF353.5.N37 W55 2018",
+      "catalogSearchUrl": "https://pitt.ncccevergreen.org/eg/opac/results?query=The%20Nature%20Fix&qtype=title",
+      "catalogLinkStatus": "title-search"
     },
     {
       "id": "ENG112-006",
@@ -134,7 +144,9 @@
       "caution": "",
       "state": "PCC list captured · access not live-tested",
       "citation": "",
-      "callNumber": "QH541.13 .M67 2025"
+      "callNumber": "QH541.13 .M67 2025",
+      "catalogSearchUrl": "https://pitt.ncccevergreen.org/eg/opac/results?query=Being%20Ecological&qtype=title",
+      "catalogLinkStatus": "title-search"
     },
     {
       "id": "ENG112-007",
@@ -156,7 +168,9 @@
       "caution": "Philosophical and literary work.",
       "state": "PCC list captured · access not live-tested",
       "citation": "",
-      "callNumber": "GN33 .A32 2011"
+      "callNumber": "GN33 .A32 2011",
+      "catalogSearchUrl": "https://pitt.ncccevergreen.org/eg/opac/results?query=Becoming%20Animal&qtype=title",
+      "catalogLinkStatus": "title-search"
     },
     {
       "id": "ENG112-008",
@@ -178,7 +192,9 @@
       "caution": "Science memoir; distinguish narrative and reported findings.",
       "state": "PCC list captured · access not live-tested",
       "citation": "",
-      "callNumber": "SD411.52 .S56 A3 2022"
+      "callNumber": "SD411.52 .S56 A3 2022",
+      "catalogSearchUrl": "https://pitt.ncccevergreen.org/eg/opac/results?query=Finding%20the%20Mother%20Tree&qtype=title",
+      "catalogLinkStatus": "title-search"
     },
     {
       "id": "ENG112-009",
@@ -200,7 +216,9 @@
       "caution": "Ethical and literary inquiry rooted in Indigenous perspectives.",
       "state": "PCC list captured · access not live-tested",
       "citation": "",
-      "callNumber": "E98 .B7 K56 2024"
+      "callNumber": "E98 .B7 K56 2024",
+      "catalogSearchUrl": "https://pitt.ncccevergreen.org/eg/opac/results?query=The%20Serviceberry&qtype=title",
+      "catalogLinkStatus": "title-search"
     },
     {
       "id": "ENG112-010",
@@ -222,7 +240,9 @@
       "caution": "",
       "state": "PCC list captured · access not live-tested",
       "citation": "",
-      "callNumber": "QC 981 .8 .C5 M378 2018"
+      "callNumber": "QC 981 .8 .C5 M378 2018",
+      "catalogSearchUrl": "https://pitt.ncccevergreen.org/eg/opac/results?query=Climate%20Change%20Mathez%20Smerdon&qtype=keyword",
+      "catalogLinkStatus": "title-search"
     },
     {
       "id": "ENG112-011",
@@ -244,7 +264,8 @@
       "caution": "",
       "state": "PCC list captured · access not live-tested",
       "citation": "",
-      "callNumber": "QC 903 .T59 2023"
+      "callNumber": "QC 903 .T59 2023",
+      "catalogLinkStatus": "verified-record-from-PCC-book-list"
     },
     {
       "id": "ENG112-012",
@@ -266,7 +287,8 @@
       "caution": "Author-perspective nonfiction; avoid universal claims.",
       "state": "PCC list captured · access not live-tested",
       "citation": "",
-      "callNumber": "BF 241 .G683 2022"
+      "callNumber": "BF 241 .G683 2022",
+      "catalogLinkStatus": "verified-record-from-PCC-book-list"
     },
     {
       "id": "ENG112-013",
