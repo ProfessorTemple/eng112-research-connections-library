@@ -1,5 +1,5 @@
 {
-  "version": "0.3",
+  "version": "0.3.1",
   "built": "2026-11-22",
   "count": 128,
   "pilot_count": 38,
@@ -12,7 +12,7 @@
       "year": "",
       "kind": "Book",
       "collection": "PCC Reserve",
-      "access": "PCC course reserve · confirm at circulation",
+      "access": "On reserve at PCC Library",
       "url": "",
       "topics": "perception; phenomenology",
       "path": "To curate",
@@ -23,7 +23,8 @@
       "follow": "",
       "caution": "",
       "state": "PCC list captured · access not live-tested",
-      "citation": ""
+      "citation": "",
+      "callNumber": "B2430.M379 V513 1968"
     },
     {
       "id": "ENG112-002",
@@ -33,7 +34,7 @@
       "year": "",
       "kind": "Book",
       "collection": "PCC Reserve",
-      "access": "PCC course reserve · confirm at circulation",
+      "access": "On reserve at PCC Library",
       "url": "",
       "topics": "nature writing; ecocriticism",
       "path": "To curate",
@@ -44,7 +45,8 @@
       "follow": "",
       "caution": "",
       "state": "PCC list captured · access not live-tested",
-      "citation": ""
+      "citation": "",
+      "callNumber": "PS3057.N3 B84 1995"
     },
     {
       "id": "ENG112-003",
@@ -54,7 +56,7 @@
       "year": "",
       "kind": "Book",
       "collection": "PCC Reserve",
-      "access": "PCC course reserve · confirm at circulation",
+      "access": "On reserve at PCC Library",
       "url": "",
       "topics": "plants; breath; atmosphere",
       "path": "To curate",
@@ -65,7 +67,8 @@
       "follow": "",
       "caution": "",
       "state": "PCC list captured · access not live-tested",
-      "citation": ""
+      "citation": "",
+      "callNumber": "B105.P535 C6313 2019"
     },
     {
       "id": "ENG112-004",
@@ -75,7 +78,7 @@
       "year": "",
       "kind": "Philosophical book",
       "collection": "PCC Reserve | Student scholarship · MWP2",
-      "access": "PCC course reserve · confirm at circulation",
+      "access": "On reserve at PCC Library",
       "url": "",
       "topics": "animism; perception; language; more-than-human; senses; communication",
       "path": "Encounter & perception",
@@ -86,7 +89,8 @@
       "follow": "Compare with Reading on memory and Fleming on attention.",
       "caution": "Philosophical argument and experiential writing; not an experiment.",
       "state": "PCC list captured · access not live-tested",
-      "citation": ""
+      "citation": "",
+      "callNumber": "BD581 .A25 1996"
     },
     {
       "id": "ENG112-005",
@@ -96,7 +100,7 @@
       "year": "",
       "kind": "Book",
       "collection": "PCC Reserve",
-      "access": "PCC course reserve · confirm at circulation",
+      "access": "On reserve at PCC Library",
       "url": "",
       "topics": "attention; nature; well-being",
       "path": "To curate",
@@ -107,7 +111,8 @@
       "follow": "",
       "caution": "",
       "state": "PCC list captured · access not live-tested",
-      "citation": ""
+      "citation": "",
+      "callNumber": "BF353.5.N37 W55 2018"
     },
     {
       "id": "ENG112-006",
@@ -117,7 +122,7 @@
       "year": "",
       "kind": "Book",
       "collection": "PCC Reserve",
-      "access": "PCC course reserve · confirm at circulation",
+      "access": "On reserve at PCC Library",
       "url": "",
       "topics": "ecology; philosophy",
       "path": "To curate",
@@ -128,7 +133,8 @@
       "follow": "",
       "caution": "",
       "state": "PCC list captured · access not live-tested",
-      "citation": ""
+      "citation": "",
+      "callNumber": "QH541.13 .M67 2025"
     },
     {
       "id": "ENG112-007",
@@ -138,7 +144,7 @@
       "year": "",
       "kind": "Philosophical book",
       "collection": "PCC Reserve",
-      "access": "PCC course reserve · confirm at circulation",
+      "access": "On reserve at PCC Library",
       "url": "",
       "topics": "animism; embodiment; reciprocity; more-than-human; encounter; nature writing",
       "path": "Encounter & perception",
@@ -149,7 +155,8 @@
       "follow": "Read alongside Kimmerer on reciprocity.",
       "caution": "Philosophical and literary work.",
       "state": "PCC list captured · access not live-tested",
-      "citation": ""
+      "citation": "",
+      "callNumber": "GN33 .A32 2011"
     },
     {
       "id": "ENG112-008",
@@ -159,7 +166,7 @@
       "year": "",
       "kind": "Science memoir",
       "collection": "PCC Reserve",
-      "access": "PCC course reserve · confirm at circulation",
+      "access": "On reserve at PCC Library",
       "url": "",
       "topics": "forest; trees; fungi; reciprocity; family; memory; ecology",
       "path": "Reciprocity & ecological relationships",
@@ -170,7 +177,8 @@
       "follow": "Pair with Stafford on trees and Reading on memory.",
       "caution": "Science memoir; distinguish narrative and reported findings.",
       "state": "PCC list captured · access not live-tested",
-      "citation": ""
+      "citation": "",
+      "callNumber": "SD411.52 .S56 A3 2022"
     },
     {
       "id": "ENG112-009",
@@ -180,7 +188,7 @@
       "year": "",
       "kind": "Reflective nonfiction",
       "collection": "PCC Reserve",
-      "access": "PCC course reserve · confirm at circulation",
+      "access": "On reserve at PCC Library",
       "url": "",
       "topics": "reciprocity; plants; gifts; Indigenous knowledge; ecology; care; economy",
       "path": "Reciprocity & ecological relationships",
@@ -191,7 +199,8 @@
       "follow": "Compare with Plumwood on power and Despret on questions.",
       "caution": "Ethical and literary inquiry rooted in Indigenous perspectives.",
       "state": "PCC list captured · access not live-tested",
-      "citation": ""
+      "citation": "",
+      "callNumber": "E98 .B7 K56 2024"
     },
     {
       "id": "ENG112-010",
@@ -201,7 +210,7 @@
       "year": "",
       "kind": "Book",
       "collection": "PCC Reserve",
-      "access": "PCC course reserve · confirm at circulation",
+      "access": "On reserve at PCC Library",
       "url": "",
       "topics": "climate science",
       "path": "To curate",
@@ -212,7 +221,8 @@
       "follow": "",
       "caution": "",
       "state": "PCC list captured · access not live-tested",
-      "citation": ""
+      "citation": "",
+      "callNumber": "QC 981 .8 .C5 M378 2018"
     },
     {
       "id": "ENG112-011",
@@ -222,7 +232,7 @@
       "year": "",
       "kind": "Book",
       "collection": "PCC Reserve",
-      "access": "PCC course reserve · confirm at circulation",
+      "access": "On reserve at PCC Library",
       "url": "https://pitt.ncccevergreen.org/eg/opac/record/628302",
       "topics": "climate; justice",
       "path": "To curate",
@@ -233,7 +243,8 @@
       "follow": "",
       "caution": "",
       "state": "PCC list captured · access not live-tested",
-      "citation": ""
+      "citation": "",
+      "callNumber": "QC 903 .T59 2023"
     },
     {
       "id": "ENG112-012",
@@ -243,7 +254,7 @@
       "year": "",
       "kind": "Nonfiction book",
       "collection": "PCC Reserve",
-      "access": "PCC course reserve · confirm at circulation",
+      "access": "On reserve at PCC Library",
       "url": "https://pitt.ncccevergreen.org/eg/opac/record/623260",
       "topics": "autism; neurodiversity; perception; visual thinking; patterns; learning",
       "path": "Neurodiversity & ways of knowing",
@@ -254,7 +265,8 @@
       "follow": "Pair with Robertson and Baron-Cohen on sensory processing.",
       "caution": "Author-perspective nonfiction; avoid universal claims.",
       "state": "PCC list captured · access not live-tested",
-      "citation": ""
+      "citation": "",
+      "callNumber": "BF 241 .G683 2022"
     },
     {
       "id": "ENG112-013",
